@@ -17,9 +17,18 @@ It is developed using Node, NPM, Vue 2.7 and Vuetify 2.
 All of these libraries have open-source licences.
 
 ## Project setup
+
+Install the dependencies
 ```
 npm install
 ```
+
+Copy and adjust the configuration
+```
+cp .env.template .env
+```
+
+Make sure the `.env` file has correct values.
 
 ### Compiles and hot-reloads for development
 ```
@@ -29,11 +38,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
